@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.saludo {
+    font-size: 2em;
+    color: #8b4513;
+    text-align: center;
+    margin: 20px 0;
+}
+
+header {
+    background-color: #8b4513;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+    font-style: italic;
+    color: #f9d5a7;
+}
+
+h2 {
+    color: #8b4513;
+    border-bottom: 2px solid #8b4513;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+ul, ol {
+    margin: 20px 0;
+    padding-left: 40px;
+}
+
+.recipe-image {
+    display: block;
+    margin: 20px auto; /* Centra la imagen horizontalmente */
+    max-width: 80%; /* La imagen ocupará un máximo del 80% del ancho disponible */
+    height: auto; /* Mantiene las proporciones originales */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Añade un efecto de sombra */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+}
